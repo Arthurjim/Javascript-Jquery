@@ -1,0 +1,114 @@
+/*Implementando grid*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+ background-color: rgb(207, 207, 207);
+}
+nav{
+  height: 60px;
+  background-color: rgba(114, 0, 0, 0.548);
+  border:1px solid rgb(124, 124, 124);
+  line-height: 60px;
+  
+}
+nav img{
+  width: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+nav ul{
+ float: right;
+ margin-right: 10%;
+}
+nav ul li{
+  
+  float: left;
+  padding-left: 10px;
+  list-style: none;
+}
+nav ul li a {
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  
+}
+nav ul li:hover{
+ background-color:  rgb(87, 50, 50);
+  opacity: .7;
+}
+
+/*Styles movies*/
+
+.card{
+  float: left;
+  margin: 30px;
+  width: 20%;
+  height: 450px;
+  background-color: rgb(175, 160, 160);
+  box-shadow: 5px 5px 5px rgb(54, 54, 54);
+  border-radius: 5px;
+  
+}
+.card:hover{
+  
+  opacity: .8;
+}
+.card img{  
+  width: 100%;
+  height: 80%;
+}
+.card p{
+  text-align: center;
+  
+}
+
+.modal{
+
+  position: fixed;
+  z-index: 1;
+  width: 43%;
+  height: 400px;
+  background-color: rgb(248, 248, 247);
+  margin-left: 32%;
+  margin-top: 6%;
+  box-shadow: 5px 5px 5px rgb(173, 34, 34);
+  border-radius: 5px;
+  display: none;
+  opacity: 1;
+}
+.modal .img-modal {
+  width: calc( 50% - 20px);
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.img-modal img {
+  width: 80%;
+  
+}
+.modal .modal-descripcion{
+  width: 50%;
+  float: left;
+  
+}
+.modal-descripcion img {
+  width: 30px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+.modal-descripcion .title{
+  padding-top: 20%;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.modal-descripcion .hora{
+  
+  text-align: center;
+  margin-top: 20px;
+}

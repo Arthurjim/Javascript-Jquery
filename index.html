@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery App</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+
+<body>
+
+    
+  
+  <div class="container">
+    <div class="header">
+      <nav >
+        <a href="#"><img src="./images/bars.png" alt="menu"></a>
+        <ul>
+          <li><a class="categoria"  id="cate" category="todos" href="#">Todas</a></li>
+          <li><a  class="categorias"  id="cate" href="#" category="Accion">Acción</a></li>
+          <li><a class="categorias" href="#" category="Romance">Romance</a></li>
+          <li><a class="categorias" href="#" category="Terror">Terror</a></li>
+          <li><a class="categorias"  href="#" category="Comedia">Comedia</a></li>
+        </ul>
+      </nav>  
+    </div>
+    <div class="movie-content" >
+      <div class="card" category="Accion" nombre="batmavsSuperMan">
+        <img src="./images/movies/batman-vs.jpg" alt="batmavsSuperMan">
+        <p >Batman vs Superman</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="batmavsSuperMan">
+        <div class="img-modal">
+          <h2>batma vs Super-Man</h2>
+          <img src="./images/movies/batman-vs.jpg" alt="batmavsSuperMan">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Batman vs. Superman: el origen de la justicia</p>
+            <p class="hora">Hora: 3h 30m</p>
+            <p class="hora">2016</p>
+        </div>
+
+      </div>
+      <div class="card" category="Terror" nombre="llorona">
+        <img src="./images/movies/la-llorona.jpg" alt="llorona">
+        <p >La llorona</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="llorona">
+        <div class="img-modal">
+          <h2>La llorona</h2>
+          <img src="./images/movies/la-llorona.jpg" alt="llorona">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">La llorona</p>
+            <p class="hora">Hora: 2h 30m</p>
+            <p class="hora">2018</p>
+        </div>
+      </div>
+      <div class="card" category="Accion" nombre="spider">
+        <img src="./images/movies/spider-man.jpg" alt="spider">
+        <p >spider-man </p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal"  nombre="spider">
+        <div class="img-modal">
+          <h2>spider-man</h2>
+          <img src="./images/movies/spider-man.jpg" alt="spider">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">spider-man</p>
+            <p class="hora">Hora: 2h 40m</p>
+            <p class="hora">2019</p>
+        </div>
+      </div>
+      <div class="card" category="Accion" nombre="hulk">
+        <img src="./images/movies/hulk.jpg" alt="hulk">
+        <p >Hulk</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="hulk">
+        <div class="img-modal">
+          <h2>Hulk</h2>
+          <img src="./images/movies/hulk.jpg" alt="hulk">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Hulk</p>
+            <p class="hora">Hora: 2h 50m</p>
+            <p class="hora">2012</p>
+        </div>
+      </div>
+      <div class="card" category="Romance" nombre="estrella">
+        <img src="./images/movies/bajo-la-misma-estrella.jpg" alt="estrella">
+        <p >Bajo la misma estrella</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="estrella">
+        <div class="img-modal">
+          <h2>Bajo la misma estrella</h2>
+          <img src="./images/movies/bajo-la-misma-estrella.jpg" alt="estrella">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Bajo la misma estrella</p>
+            <p class="hora">Hora: 2h 20m</p>
+            <p class="hora">2018</p>
+        </div>
+      </div>
+      <div class="card" category="Comedia" nombre="que-paso-ayer">
+        <img src="./images/movies/que-paso-ayer.jpg" alt="que paso ayer">
+        <p >Qué pasó ayer?</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="que-paso-ayer">
+        <div class="img-modal">
+          <h2>Qué pasó ayer?</h2>
+          <img src="./images/movies/que-paso-ayer.jpg" alt="que paso ayer">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Qué pasó ayer?</p>
+            <p class="hora">Hora: 2h 20m</p>
+            <p class="hora">2016</p>
+        </div>
+      </div>
+      <div class="card" category="Comedia" nombre="Buenos_Vecinos_2">
+        <img src="./images/movies/Buenos_Vecinos_2.jpg" alt="Buenos_Vecinos_2">
+        <p >Buenos Vecinos 2</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal" nombre="Buenos_Vecinos_2">
+        <div class="img-modal">
+          <h2>Buenos Vecinos 2</h2>
+          <img src="./images/movies/Buenos_Vecinos_2.jpg" alt="Buenos_Vecinos_2">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Buenos Vecinos 2</p>
+            <p class="hora">Hora: 2h 40m</p>
+            <p class="hora">2018</p>
+        </div>
+      </div>
+      <div class="card" category="Romance" nombre="Yo-antes-de-ti">
+        <img src="./images/movies/Yo-antes-de-ti.jpeg" alt="Yo-antes-de-ti">
+        <p >Yo antes de ti</p>
+        <p>Estreno</p>
+      </div>
+      <div class="modal"  nombre="Yo-antes-de-ti">
+        <div class="img-modal">
+          <h2>Yo antes de ti</h2>
+          <img src="./images/movies/Yo-antes-de-ti.jpeg" alt="Yo-antes-de-ti">
+        </div>
+        <div class="modal-descripcion">
+          <img class="ocultarModal" src="./images/signs.png" alt="salir">
+          <p class="title">Yo antes de ti</p>
+            <p class="hora">Hora: 2h 40m</p>
+            <p class="hora">2018</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ <script src="./js/jquery.js"></script> 
+<script src="./js/main.js"></script>
+</body>
+
+</html>
